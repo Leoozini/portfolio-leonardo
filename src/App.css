@@ -1,0 +1,43 @@
+/* Animação do logo (caso você use um logo girando ainda) */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Estilo do cabeçalho principal da aplicação */
+.App-header {
+  background-color: #0d0d0f; /* fundo preto quase absoluto com um toque de azul escuro */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f2f2f2; /* branco um pouco suavizado */
+}
+
+/* Estilo para os links */
+.App-link {
+  color: #00f6ff; /* ciano vibrante estilo neon */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #ff007f; /* rosa neon ao passar o mouse */
+}

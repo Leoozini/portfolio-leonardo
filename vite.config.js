@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "", // Use "" para rodar localmente. Quando for publicar no GitHub Pages, troque para "/portfolio-leonardo/"
+  base: "/portfolio-leonardo/", // <- TROQUEI AQUI para o GitHub Pages
   plugins: [react()],
   resolve: {
     alias: {

@@ -1,0 +1,41 @@
+/* Variáveis CSS definidas na raiz */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 47.4% 11.2%;
+  --primary: 240 100% 50%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 240 4.8% 95.9%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --muted: 240 4.8% 95.9%;
+  --muted-foreground: 240 3.8% 46.1%;
+  --accent: 240 4.8% 95.9%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 240 5.9% 90%;
+  --input: 240 5.9% 90%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+
+  --chart-1: 340 82.6% 52.5%;
+  --chart-2: 10 81.3% 56.3%;
+  --chart-3: 48 96.5% 53.1%;
+  --chart-4: 157 90.2% 45.1%;
+  --chart-5: 217 91.2% 59.8%;
+}
+
+/* Estilo base para o corpo */
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: system-ui, sans-serif;
+}
+
+/* Tailwind base, components e utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

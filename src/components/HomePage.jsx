@@ -7,7 +7,7 @@ import Projects from "./Projects";
 import CodeRepository from "./CodeRepository";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import { mockData } from "../data/mock";
+import { mockData } from "../data/mock"; // Certifique-se de que esse arquivo existe
 
 const HomePage = () => {
   const [portfolioData, setPortfolioData] = useState(null);
@@ -26,7 +26,7 @@ const HomePage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50 text-slate-900">
       <Header />
       <Hero data={portfolioData.hero} />
       <About data={portfolioData.about} />
